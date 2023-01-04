@@ -42,7 +42,7 @@ The following shows how to run the code and where to find the results:
 1)	Run DatasetGenerator.py 
 2)	Run RealData4KFSM_Qt.py
 The reconstruction images as well as the reconstruction error images are saved in the code folder as png file. The results of KF and smoother are saved as mat file in code folder with name in a form as “landsat_2band_xxx_alpha_xxx_Qt.mat”.
-Note that in the reconstruction figure, we skip the results of MOIDS observations at 2018/07/03, that’s because we need to use the results to compare with ESTARFM and PSRFM method, where no estimations would acquired at 2018/07/03. 
+Note that in the reconstruction figure, we skip the results of MOIDS observations at 2018/07/03, that’s because we need to use the results to compare with ESTARFM and PSRFM method in the paper, where no estimations would acquired at 2018/07/03. 
 
 
 
