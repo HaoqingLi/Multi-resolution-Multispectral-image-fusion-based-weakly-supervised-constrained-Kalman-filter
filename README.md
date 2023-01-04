@@ -1,7 +1,7 @@
 # Multi-resolution-Multispectral-image-fusion-based-weakly-supervised-constrained-Kalman-filter
 It's a constrained-distributed-Kalman-filter-based Multi-resolution Multispectral image fusion method.
 
-This project is a sample code aiming to fuse Landsat image using both Landsat and MODIS image. Specifically, Landsat images at 2018/07/03 and 2018/09/21, as well as 16 MODIS images at dates from 2018/07/03 to 2018/09/21, are used to estimate the Landsat images from 2018/07/03 to 2018/09/21. Note that two bands of each kind of image are considered, band 1 and band 2 are included for MODIS image while band 4 and band 5 are included for Landsat image.
+This project is a sample code aiming to fuse Landsat image using both Landsat and MODIS image at Oroville dam site. Specifically, Landsat images at 2018/07/03 and 2018/09/21, as well as 16 MODIS images at dates from 2018/07/03 to 2018/09/21, are used to estimate the Landsat images from 2018/07/03 to 2018/09/21. Note that two bands of each kind of image are considered, band 1 and band 2 are included for MODIS image while band 4 and band 5 are included for Landsat image.
 
 The dataset can be found in https://zenodo.org/record/7504719#.Y7Xz53bMKF4, where 3 folder are listed: one for MODIS image observations, which is “MODIS_250” in the dataset, one for Landsat image observations, which is “HD-IMG-Database-Landsat-8” in the dataset, and the final one is historical data for Q matrix estimation, which is “HD-IMG-Database-Landsat-8-Qest” in the dataset.
 
